@@ -1,1 +1,1 @@
-my version 
+// my version with fixed decodeURI
