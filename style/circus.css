@@ -1,32 +1,79 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    align-items: left;
+   
     background-color: #cccccc;
 }
-ul{
-    margin: 0px;
-    Padding: 0px;
-    list-style: none;
-    background-color:#000;
-    
-    /*center the text */
-}
-li{
-    
-    display: inline-block;
-    padding: 20px;
-    font-size: 24px;
-       
-    line-height: 40px;
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  
+  #myGallery{
+    padding-top: 60px;
+    padding-left: 10px;
+  
+    width:800px; /* Set your image width */
+    height:400px; /* Set your image height */
+  }
+  #myGallery img{
+    padding-bottom: 10px;
+    width:100%; /* Set your image width */
+    height:100%; /* Set your image height */
+   
+  }
+  #myGallery img.active{
+    display:block;
+  }
     
 
+#adtext{
+      margin-top: 330px;
+      margin-left: 30px;
+      position: absolute;
+    font-size: 40px;
+    color: yellow;
 }
-li a {
-    display: inline;
-    padding: 20px;
-    
+
+  #menu{
+    padding-left: 10px;
+      width: 1200px;
+      height: 600px;
   }
-a{
-    text-decoration: none;
-    color: #ffffff;
-}
+  #menu img{
+    padding-bottom: 10px;
+    width:100%; /* Set your image width */
+    height:100%; /* Set your image height */
+   
+  }
+  
+  #aboutus{
+    padding-left: 10px;
+      width: 1200px;
+      height: 600px;
+  }
+  #aboutus img{
+    padding-bottom: 10px;
+    width:100%; /* Set your image width */
+    height:100%; /* Set your image height */
