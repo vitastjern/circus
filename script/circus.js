@@ -27,8 +27,8 @@ function stickyNavbar() {
 }  */
 
 function showShows(){
-    $('#showtext').css('hight', '400');
-    $('#showtext').css('with', '400');
+    $('#showtext').css('height', '400');
+    $('#showtext').css('width', '400');
     $('#showtext').html('test of the new div ').toggle();
 }
 
