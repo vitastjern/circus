@@ -1,5 +1,5 @@
   body{
-    align-items: left;
+   
     background-color: #ddd;
     z-index: 1;
   }
@@ -16,7 +16,7 @@
     color: #f2f2f2;
     text-align: center;
     padding-right: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     padding-top: 5px;
     text-decoration: none;
     font-size: 17px;
@@ -49,9 +49,9 @@
     height:600px; 
   }
   #fadeGallery{
-    padding-top: 65px;
-    padding-left: 10px;
     overflow: hidden;
+    padding-top: 70px;
+    padding-left: 10px;
     width:800px; 
     height:600px; 
   }
@@ -104,7 +104,7 @@
     margin: 0px;
   }
   #showlist{
-    padding-top: 65px;
+    padding-top: 75px;
     color: rgb(223, 115, 14);
   }
   #showlist li:hover{
