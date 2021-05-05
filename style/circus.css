@@ -30,3 +30,9 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+
+.dropshadow {  
+    /* this class is used to make a png img with transparant background get a shadow effect
+    that follows the shape. (Can be used on ordinary square pictures as well.) */
+    filter: drop-shadow(5px 5px 5px #222);
+}
