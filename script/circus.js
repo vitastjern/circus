@@ -9,8 +9,8 @@ $(document).ready(function(){
 
 
 function stickyNavbar() {
-    $('#fadeGallery').css('padding-top', '55');
-    $('#showlist').css('padding-top', '55');
+    $('#fadeGallery').css('padding-top', '60');
+    $('#showlist').css('padding-top', '60');
     var stickybar = ($('#navbar').offset().top >= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
 
 

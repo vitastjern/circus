@@ -1,11 +1,13 @@
 body{
     align-items: left;
     background-color: #ddd;
+    z-index: 1;
 }
 
 #navbar {
     overflow: hidden;
     background-color: #ddd;
+    z-index: 2;
     
   }
   
@@ -15,6 +17,7 @@ body{
     color: #f2f2f2;
     text-align: center;
     padding-right: 30px;
+    padding-bottom: 10px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -23,6 +26,24 @@ body{
     background-color: #ccc;
     color: black;
   }
+
+  .navimg{
+
+    height: 50px;
+    width: 100px;
+  }
+  .logo{
+    padding-left: 10px;
+    width: 50px;
+  }
+  .navbar{
+    display: inline-block;
+   
+   
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }  
+
   .navstick {
     position: fixed;
     top: 0;
@@ -117,4 +138,8 @@ a{
 
   height: 50px;
   width: 100px;
+}
+.logo{
+  padding-left: 10px;
+  width: 50px;
 }
