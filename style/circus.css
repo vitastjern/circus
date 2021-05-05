@@ -40,22 +40,34 @@ a{
 footer { 
     background-color: black;
     display: block;
-}
-
-footer div {
+    font-family: Garamond, serif;
     text-decoration: none;
     font-size: 20px;
     color: white;
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
-
 }
 
-#map {
-    float: right;
-    height: 200px;
+footer div {
+    display: inline-block;
+}
+
+footer .logo {
+    height: 150px;
+    padding-left: 20px;
+}
+
+footer .heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer .social {
+    height:40px;
+    padding:5px;
+}
+
+footer div#map {
+
+    height: 150px;
     width: 300px;
     padding: 20px;
-    margin: 20px;
 }
