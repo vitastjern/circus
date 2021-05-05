@@ -1,10 +1,10 @@
-body{
+  body{
     align-items: left;
     background-color: #ddd;
     z-index: 1;
   }
 
-#navbar {
+  #navbar {
     overflow: hidden;
     background-color: #ddd;
     z-index: 2;

@@ -10,10 +10,7 @@ $(document).ready(function(){
 
 
 function stickyNavbar() {
-   
-    var stickybar = ($('#navbar').offset().top >= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
-
-
+var stickybar = ($('#navbar').offset().top >= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
 }
  
 /* var stickybar = $('#navbar').offset(); 
@@ -30,9 +27,9 @@ function stickyNavbar() {
 }  */
 
 function showShows(){
-$('#showtext').css('hight', '400');
-$('#showtext').css('with', '400');
-$('#showtext').html('test of the new div ').toggle();
+    $('#showtext').css('hight', '400');
+    $('#showtext').css('with', '400');
+    $('#showtext').html('test of the new div ').toggle();
 }
 
 function swapImages(){                              // ? :  is like a if else
