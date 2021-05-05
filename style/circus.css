@@ -1,12 +1,11 @@
 body{
     align-items: left;
-   
-    background-color: #cccccc;
+    background-color: #ddd;
 }
 
 #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #ddd;
     
   }
   
@@ -15,13 +14,13 @@ body{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding-right: 30px;
     text-decoration: none;
     font-size: 17px;
   }
  
   #navbar a:hover {
-    background-color: #ddd;
+    background-color: #ccc;
     color: black;
   }
   .navstick {
@@ -38,12 +37,14 @@ body{
   #fadeGallery{
     padding-top: 10px;
     padding-left: 10px;
+    
     overflow: hidden;
     width:800px; 
     height:600px; 
   }
   #fadeGallery img{
     padding-bottom: 10px;
+    border-radius: 20px;
     width:100%; 
     height:100%;
    
@@ -110,4 +111,10 @@ a{
     /* this class is used to make a png img with transparant background get a shadow effect
     that follows the shape. (Can be used on ordinary square pictures as well.) */
     filter: drop-shadow(5px 5px 5px #222);
+}
+
+.navimg{
+
+  height: 50px;
+  width: 100px;
 }

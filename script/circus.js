@@ -1,21 +1,22 @@
 $(document).ready(function(){
    
-    $( window ).scroll(function(){stickyNavbar()}); //runs the stickynavbar function when scrolling main window
-    $(this).scrollTop(0); // scrolls the page back to top on reload 
-    setInterval('swapImages()', 5000); // Runs the  swapImages() function every 5secs
+    $(this).scrollTop(0);                               // scrolls the page back to top on reload 
+    $( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
+    setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
     $('#fadeGallery').click(function(){showShows()});
    
 });
 
 
-//function stickyNavbar() {
-   
-//var stickybar = ($('#navbar').offset().top >= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
-//$('#fadeGallery').css('padding-top', '55');
+function stickyNavbar() {
+    $('#fadeGallery').css('padding-top', '55');
+    $('#showlist').css('padding-top', '55');
+    var stickybar = ($('#navbar').offset().top >= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
 
-//}
+
+}
  
-var stickybar = $('#navbar').offset(); 
+/* var stickybar = $('#navbar').offset(); 
 
 function stickyNavbar() {
     $('#showlist').css('padding-top', '55');
@@ -26,7 +27,7 @@ function stickyNavbar() {
         $('#navbar').removeClass("navstick");
     }
     
-} 
+}  */
 
 function showShows(){
 $('#showtext').css('hight', '400');
