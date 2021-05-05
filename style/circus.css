@@ -37,6 +37,12 @@ a{
     filter: drop-shadow(5px 5px 5px #222);
 }
 
+.about-us {
+    font-family: Garamond, serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 footer { 
     background-color: black;
     display: block;
