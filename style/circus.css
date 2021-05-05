@@ -2,13 +2,12 @@ body{
     align-items: left;
     background-color: #ddd;
     z-index: 1;
-}
+  }
 
 #navbar {
     overflow: hidden;
     background-color: #ddd;
     z-index: 2;
-    
   }
   
   #navbar a {
@@ -18,6 +17,7 @@ body{
     text-align: center;
     padding-right: 30px;
     padding-bottom: 10px;
+    padding-top: 5px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -26,9 +26,7 @@ body{
     background-color: #ccc;
     color: black;
   }
-
   .navimg{
-
     height: 50px;
     width: 100px;
   }
@@ -38,27 +36,21 @@ body{
   }
   .navbar{
     display: inline-block;
-   
-   
-    padding-right: 30px;
+    padding-right: 20px;
     padding-bottom: 10px;
   }  
-
   .navstick {
     position: fixed;
     top: 0;
     width: 100%;
   }
-
   #ourshows{
     width:800px; 
     height:600px; 
   }
-  
   #fadeGallery{
-    padding-top: 10px;
+    padding-top: 65px;
     padding-left: 10px;
-    
     overflow: hidden;
     width:800px; 
     height:600px; 
@@ -68,47 +60,40 @@ body{
     border-radius: 20px;
     width:100%; 
     height:100%;
-   
   }
   #fadeGallery img.active{
     display:block;
   }
-    
-
-#adtext{
-      margin-top: 500px;
-      margin-left: 30px;
-      position: absolute;
+  #adtext{
+    margin-top: 500px;
+    margin-left: 30px;
+    position: absolute;
     font-size: 40px;
     color: yellow;
-}
-#sidetext{
+  }
+  #sidetext{
     margin-top: 60px;
     margin-left: 800px;
-   
-   
-  font-size: 25px;
-  background-color: black;
-  color:yellow;
-}
+    font-size: 25px;
+    background-color: black;
+    color:yellow;
+  }
 
 
   #menu{
     padding-left: 10px;
-      width: 1200px;
-      height: 600px;
+    width: 1200px;
+    height: 600px;
   }
   #menu img{
     padding-bottom: 10px;
     width:100%; 
     height:100%; 
-   
   }
-  
   #aboutus{
     padding-left: 10px;
-      width: 1200px;
-      height: 600px;
+    width: 1200px;
+    height: 550px;
   }
   #aboutus img{
     padding-bottom: 10px;
@@ -116,30 +101,39 @@ body{
     height:100%;
   }
   #topcont{
-      
-
+    margin: 0px;
   }
   #showlist{
-      padding-top: 10px;
-      color: yellow;
+    padding-top: 65px;
+    color: rgb(223, 115, 14);
   }
-a{
+  #showlist li:hover{
+    color: blueviolet;
+  }
+  a{
     text-decoration: none;
     color: #ffffff;
-}
-
-.dropshadow {  
+  }
+  .dropshadow {  
     /* this class is used to make a png img with transparant background get a shadow effect
     that follows the shape. (Can be used on ordinary square pictures as well.) */
     filter: drop-shadow(5px 5px 5px #222);
-}
+  }
+  .navimg{
 
-.navimg{
+    height: 50px;
+    width: 100px;
+  }
+  .logo{
+    padding-left: 10px;
+     width: 50px;
+  }
+  #callwaiter{
+    display: none;
+    z-index: 2;
+  }
 
-  height: 50px;
-  width: 100px;
-}
-.logo{
-  padding-left: 10px;
-  width: 50px;
-}
+  #showtext{ /* using display: none so toggle will show it on the first time*/
+    display: none;
+  }
+

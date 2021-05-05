@@ -4,13 +4,13 @@ $(document).ready(function(){
     $( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
     $('#fadeGallery').click(function(){showShows()});
+    $( document ).tooltip();
    
 });
 
 
 function stickyNavbar() {
-    $('#fadeGallery').css('padding-top', '60');
-    $('#showlist').css('padding-top', '60');
+   
     var stickybar = ($('#navbar').offset().top >= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
 
 
@@ -32,7 +32,7 @@ function stickyNavbar() {
 function showShows(){
 $('#showtext').css('hight', '400');
 $('#showtext').css('with', '400');
-$('#showtext').append('test of the new div ')
+$('#showtext').html('test of the new div ').toggle();
 }
 
 function swapImages(){                              // ? :  is like a if else
