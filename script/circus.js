@@ -38,4 +38,16 @@ function swapImages(){                              // ? :  is like a if else
     $next.fadeIn().addClass('active');
     });
   }
-  
+
+
+// attachEvents() makes the about_button image clickable, should probably make it a bit more general..
+// calls the clicked() function which displays/hides the text
+function attachEvents() {  
+    $("a.about_button").click(clicked);
+}
+    
+function clicked() {
+    $('#about').css('height', '400');
+    $('#about').css('width', '400');
+    $('#about').toggle(1000);
+}
