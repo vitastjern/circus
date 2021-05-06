@@ -4,7 +4,12 @@ $(document).ready(function(){
     //$( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
     $('#fadeGallery').click(function(){window.location="#booking"});
-    $( document ).tooltip();
+    //$( document ).tooltip();
+    $(".about_button").click(function(){
+        $('#about').css('height', '400');
+        $('#about').css('width', '400');
+        $('#about').toggle(1000);
+    });
    
 });
 
@@ -25,13 +30,13 @@ function stickyNavbar() {
 }  */
 
 
-
+/* 
 
 function showShows(){
     $('#showtext').css('height', '400');
     $('#showtext').css('width', '400');
     $('#showtext').html('test of the new div ').toggle();
-}
+} */
 
 function swapImages(){                              // ? :  is like a if else
     var $active = $('#fadeGallery .active');          
@@ -43,7 +48,7 @@ function swapImages(){                              // ? :  is like a if else
   }
 
 
-// attachEvents() makes the about_button image clickable, should probably make it a bit more general..
+/* // attachEvents() makes the about_button image clickable, should probably make it a bit more general..
 // calls the clicked() function which displays/hides the text
 function attachEvents() {  
     $("a.about_button").click(clicked);
@@ -54,3 +59,4 @@ function clicked() {
     $('#about').css('width', '400');
     $('#about').toggle(1000);
 }
+ */
