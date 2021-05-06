@@ -294,6 +294,7 @@ form  input {
 /* Makes responsive fields. Sets size and field alignment.*/
 input, select{
     display: block;
+    
     margin-bottom: 20px;
     margin-top: 10px;
     width: 250px;
@@ -305,6 +306,7 @@ input, select{
 
 #BookingEnquiry {
     position:fixed;
+    z-index: 1;
     width: 400;
     height: 490;
     border: 2px solid;
