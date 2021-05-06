@@ -5,6 +5,11 @@ $(document).ready(function(){
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
     $('#fadeGallery').click(function(){window.location="#booking"});
     //$( document ).tooltip();
+    $(".about_button").click(function(){
+        $('#about').css('height', '400');
+        $('#about').css('width', '400');
+        $('#about').toggle(1000);
+    });
    
 });
 
@@ -44,7 +49,7 @@ function swapImages(){                              // ? :  is like a if else
 
 // attachEvents() makes the about_button image clickable, should probably make it a bit more general..
 // calls the clicked() function which displays/hides the text
-function attachEvents() {  
+/* function attachEvents() {  
     $(".about_button").click(clicked);
     $("#aboutimg").click(clicked);
 }
@@ -54,3 +59,4 @@ function clicked() {
     $('#about').css('width', '400');
     $('#about').toggle(1000);
 }
+ */
