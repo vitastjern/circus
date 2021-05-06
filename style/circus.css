@@ -2,6 +2,12 @@ body{
   background-color: #ddd;
   z-index: 1;
 }
+:target::before {
+  content: "";
+  display: block;
+  height: 60px; 
+  margin: -60px 0 0; 
+}
 #navbar {
   overflow: hidden;
   background-color: #ddd;
@@ -67,13 +73,7 @@ body{
   font-size: 40px;
   color: rgb(223, 115, 14);
 }
-#sidetext{
-  margin-top: 60px;
-  margin-left: 800px;
-  font-size: 25px;
-  background-color: black;
-  color:rgb(223, 115, 14)low;
-}
+
 #menu{
   padding-left: 10px;
   width: 1200px;
