@@ -8,23 +8,22 @@
     overflow: hidden;
     background-color: #ddd;
     z-index: 2;
+    transition: height 0.66s ease-out;
   }
   
   #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
     padding-right: 30px;
     padding-bottom: 12px;
     padding-top: 5px;
-    text-decoration: none;
-    font-size: 17px;
+    
+    
   }
  
   #navbar a:hover {
     background-color: #ccc;
-    color: black;
+    
   }
   .navimg{
     height: 50px;
@@ -69,14 +68,14 @@
     margin-left: 30px;
     position: absolute;
     font-size: 40px;
-    color: yellow;
+    color: rgb(223, 115, 14);
   }
   #sidetext{
     margin-top: 60px;
     margin-left: 800px;
     font-size: 25px;
     background-color: black;
-    color:yellow;
+    color:rgb(223, 115, 14)low;
   }
 
 
