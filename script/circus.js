@@ -3,18 +3,18 @@ $(document).ready(function(){
    //$(this).scrollTop(0);                               // scrolls the page back to top on reload 
     //$( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
-    $('#fadeGallery').click(function(){showShows()});
+    $('#fadeGallery').click(function(){window.location="#booking"});
     $( document ).tooltip();
    
 });
 
 
-function stickyNavbar() {
+function stickyNavbar() { //functin for making the navbar sticky on the top of the page
     //$('#fadeGallery').css ( 'padding-top', '70px'); // this was use to counter a bug not needed anymore
     var stickybar = ($('#navbar').offset().top <= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
 }
  
-/* var stickybar = $('#navbar').offset();  // this is the old code for the function above keept it in since it much easier to read
+/* var stickybar = $('#navbar').offset();  // this is the old code for the function above kept it in since it much easier to read
 function stickyNavbar() {
     $('#fadeGallery').css('padding-top', '55');
     if (window.pageYOffset >= stickybar.top) {
@@ -23,6 +23,9 @@ function stickyNavbar() {
         $('#navbar').removeClass("navstick");
     }
 }  */
+
+
+
 
 function showShows(){
     $('#showtext').css('height', '400');

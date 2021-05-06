@@ -100,6 +100,7 @@ body{
 #showlist{
   padding-top: 75px;
   color: rgb(223, 115, 14);
+  font-size: 20px;
 }
 #showlist li:hover{
   color: blueviolet;
