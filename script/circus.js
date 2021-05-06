@@ -45,7 +45,7 @@ function swapImages(){                              // ? :  is like a if else
 // attachEvents() makes the about_button image clickable, should probably make it a bit more general..
 // calls the clicked() function which displays/hides the text
 function attachEvents() {  
-    $("a.about_button").click(clicked);
+    $(".about_button").click(clicked);
     $("#aboutimg").click(clicked);
 }
     
