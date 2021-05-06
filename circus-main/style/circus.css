@@ -1,0 +1,76 @@
+/* Booking style */
+.row{
+    padding: 20px; 
+}
+#Booking {
+     
+    padding: 5px; 
+    float:left ;
+    background-color: rgb(144, 146, 5);
+    margin: 2px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#header1 {
+    background: url('1.jpeg') center;
+    
+    background-size: cover;
+    /*height: 700px;*/
+    width:500px;height:480px;
+    }  
+/*End  Booking style */
+
+/*
+form {
+    
+    }*/
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input, select{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 200px;
+    padding: 15px;
+    border-radius:5px;
+   
+    }
+
+
+
+/*------------------*/
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #cccccc;
+}
+ul{
+    margin: 0px;
+    Padding: 0px;
+    list-style: none;
+    background-color:#000;
+    
+    /*center the text */
+}
+li{
+    
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+       
+    line-height: 40px;
+    
+
+}
+li a {
+    display: inline;
+    padding: 20px;
+    
+  }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
