@@ -1,16 +1,16 @@
 $(document).ready(function(){
-   
-    $(this).scrollTop(0);                               // scrolls the page back to top on reload 
-    $( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
+    stickyNavbar();
+    //$(this).scrollTop(0);                               // scrolls the page back to top on reload 
+    //$( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
-    $('#fadeGallery').click(function(){showShows()});
-    $( document ).tooltip();
+    $('#fadeGallery').click(function(){window.location="#booking"});
+    //$( document ).tooltip();
    
 });
 
 
 function stickyNavbar() {
-var stickybar = ($('#navbar').offset().top >= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
+var stickybar = ($('#navbar').offset().top <= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
 }
  
 /* var stickybar = $('#navbar').offset(); 
@@ -46,6 +46,7 @@ function swapImages(){                              // ? :  is like a if else
 // calls the clicked() function which displays/hides the text
 function attachEvents() {  
     $("a.about_button").click(clicked);
+    $("#aboutimg").click(clicked);
 }
     
 function clicked() {

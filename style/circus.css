@@ -1,30 +1,36 @@
 body{
-  align-items: left;
+  /*align-items: left;*/
   background-color: #ddd;
   z-index: 1;
+  /*
+  margin: 0px;
+    padding: 0px;
+    background: url('./img/background.png') center;
+    */
 }
 
 #navbar {
   overflow: hidden;
   background-color: #ddd;
   z-index: 2;
+  transition: height 0.66s ease-out;
 }
   
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
-  text-align: center;
+  /*color: #f2f2f2;
+  text-align: center;*/
   padding-right: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   padding-top: 5px;
-  text-decoration: none;
-  font-size: 17px;
+ /* text-decoration: none;
+  font-size: 17px;*/
 }
  
 #navbar a:hover {
   background-color: #ccc;
-  color: black;
+  /*color: black;*/
 }
 
 .navimg{
@@ -55,9 +61,9 @@ body{
 }
 
 #fadeGallery{
-  padding-top: 65px;
-  padding-left: 10px;
   overflow: hidden;
+  padding-top: 70px;
+  padding-left: 10px;
   width:800px; 
   height:600px; 
 }
@@ -78,16 +84,18 @@ body{
   margin-left: 30px;
   position: absolute;
   font-size: 40px;
-  color: yellow;
+  color: rgb(233, 155, 14);
 }
 
+/* not used according to Fredrik
 #sidetext{
   margin-top: 60px;
   margin-left: 800px;
   font-size: 25px;
   background-color: black;
-  color:yellow;
+  color:rgb(223, 115, 14);
 }
+*/
 
 #menu{
   padding-left: 10px;
@@ -103,14 +111,19 @@ body{
 
 #aboutus{
   padding-left: 10px;
-  width: 1200px;
+ /* width: 1200px; */
   height: 550px;
 }
 
-#aboutus img{
-  padding-bottom: 10px;
+#aboutimg{
+  padding-bottom: 10px; 
   width:100%; 
   height:100%;
+}
+
+#bookingdiv {
+  padding-left:10px;
+  width: 1200px;
 }
 
 #topcont{
@@ -118,8 +131,9 @@ body{
 }
 
 #showlist{
-  padding-top: 65px;
+  padding-top: 75px;
   color: rgb(223, 115, 14);
+  font-size: 20px;
 }
 
 #showlist li:hover{
@@ -196,3 +210,117 @@ footer div#map {
   display: none;
 }
 
+/* make image 1 have image 2 on top of it */
+.img1 {  
+  position:absolute;  
+  top: 25px; 
+  left: 25px; 
+  z-index: 1; 
+}  
+.img2 { 
+  position:absolute; 
+  top: 85%; 
+  left: 30%;
+  z-index: 3; 
+  height:75px;
+}
+
+/*------ CSS for booking - start  ------*/
+
+
+ Gallery*/
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Booking style */
+
+.gallery-row{
+    padding: 20px; 
+}
+#Booking {
+     
+    padding: 5px; 
+    float:left ;
+    background-color:rgb(199, 150, 28,0.5);
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+/* form  */
+
+form  input {
+    padding: 10px;
+    margin: 0;
+    width: 400px;
+    height: 39px;
+    }
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input, select{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 250px;
+    padding: 15px;
+    border-radius:5px;
+   
+    }
+/*---------BookingEnquiry---------*/
+
+#BookingEnquiry {
+    position:fixed;
+    width: 500;
+    height: 590;
+    border: 2px solid;
+    background-color: rgba(232, 227, 248, 0.9);
+    top:13%;  
+    bottom: 0;
+    left: 20%;
+    right:  50%;
+    border-radius: 5%;   
+}
+/*------ CSS for booking - end  ------*/
