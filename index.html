@@ -7,44 +7,84 @@
 </head>
 <body onload="attachEvents()">
     <a name="top"></a>
-    <div id="navbar"></div>
-    
-<ul>
-        
-    <li>
-        
-        <img src="" alt="">
-        <a href="#">Menu</a>
-        <a href="#">Our Shows</a>
-        <a href="#" class="about_button" role="button">About Us</a>
-        <a href="#">Contacts</a>
-        <a href="#">Booking</a>
-    </li>
-</ul>
-
-<div id="about" style="display:none;">
-    <h1>About Us</h1>
-    <p>
-    Restaurant Circus opened in May 2021 by a Ida Krone, a chef with a burning 
-    circus interest. To get the absolute best of the two worlds we offer exciting and whimsical
-    shows with top artists performing both traditional circus acts as well as contemporary acts. 
-    This is combined with the best foods and drinks to guarantee you a fantastical evening!
-    </p>
-    <p>
-    Come, let us entertain you!
-    </p>
+<div id="navbar"> 
+    <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
+    <a href="#ourshows"><img class='navimg dropshadow' src="./img/txt_img/our_shows-transparant.png" alt=""></a>
+    <a href="#menu"><img class='navimg dropshadow' src="./img/txt_img/menu-transparant.png" alt=""></a>
+    <a href="#aboutus" class="about_button" role="button"><img class='navimg dropshadow' src="./img/txt_img/about_us-transparant.png" alt=""></a>
+    <a href="#footer"><img class='navimg dropshadow' src="./img/txt_img/contact-transparant.png" alt=""></a>
+    <a class="bmenu" href="#booking"><img class='navimg dropshadow' src="./img/txt_img/booking-transparant.png" alt=""></a>
+    <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
 </div>
+
+<div class="container" id="topcont">
+    <div class="row">
+        <div class="col-">
+            <div id="ourshows">
+                <div class="adtext " id="adtext">
+                    <p>Upcoming shows 2021</p>
+                </div>
+                <div id="fadeGallery">
+                    <img src="./img/wine lady.jpg" class="active" />
+                    <img src="./img/white drape lady.jpg" />
+                    <img src="./img/girl on drape.jpg" />
+                </div> 
+            </div> 
+        </div>
+        <div class="col-sm">
+            <ul id="showlist">
+                <img class='navimg dropshadow' src="./img/txt_img/our_shows_2021-transparant.png" alt="">
+                <li>Upcoming shows: </li>
+                <li title="Anna Eklund, also known as the queen of highline">13/6 Anna eklund</li>
+                <li>14/6 Shalini Dixit</li>
+                <li>28/6 Ali Ali</li>
+                <li>29/6 Fredrik Ygberg</li>
+            </ul> 
+            More talented artists soon too come!
+        </div>
+    </div>
+    
+    <div id="showtext">
+        <!-- Placeholder for show texts -->
+    </div>
  
+    <div id="menu">
+        <img src="./img/lady on table.jpg" alt="">
+        <p> place for meny pdf links ? four images in line single pdf file </p>
+    </div>
+
+    <div id="aboutus" class="row">
+        <div class="col-sm">
+            <img src="./img/man on table.jpg" alt="">
+        </div>
+        <div id="about" style="display:none;" class="col-">
+            <h1>About Us</h1>
+            <p>
+                Restaurant Circus opened in May 2021 by a Ida Krone, a fantastic chef and former circus artist
+                and animal trainer with a burning interest to promote the circus arts. To get the absolute 
+                best of the two worlds we offer exciting and whimsical shows with top artists performing 
+                both traditional circus acts as well as contemporary acts. <br>
+                This is combined with the best foods and drinks to guarantee you a fantastical evening!
+            </p>
+            <p>
+                Come, let us entertain you!
+            </p>
+        </div>
+    </div>
+
+    <div id="booking">
+        <p>booking</p>
+    </div>
+</div>  
 
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-sm">
                 <a href="#top">
-                    <img class="logo dropshadow" src="./img/txt_img/logotype-transparant.png" alt="Restaurant Circus">
+                    <img class="logotype dropshadow" src="./img/txt_img/logotype-transparant.png" alt="Restaurant Circus">
                 </a>
             </div>
-
             <div class="col-sm">
                 <p class="heading"> Restaurant Circus</p>
                 <p> 
@@ -67,8 +107,8 @@
                 </p>
             </div>
 
-            <div class="dropshadow col-">
-                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.661393188184!2d1.821665316226076!3d41.72782497923457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4580d17198c37%3A0xc077e214328b5847!2sRestaurant%20Circus!5e0!3m2!1ssv!2sse!4v1620205427652!5m2!1ssv!2sse" 
+            <div id="map" class="dropshadow col-">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.661393188184!2d1.821665316226076!3d41.72782497923457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4580d17198c37%3A0xc077e214328b5847!2sRestaurant%20Circus!5e0!3m2!1ssv!2sse!4v1620205427652!5m2!1ssv!2sse" 
                 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
@@ -78,6 +118,7 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script/circus.js"></script>
+
 </body>
 
 </html>
