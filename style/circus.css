@@ -203,25 +203,17 @@ footer div#map {
 
 #callwaiter{
     display: none;
-    z-index: 2;
+    z-index: 1;
 }
 
 #showtext{ /* using display: none so toggle will show it on the first time*/
   display: none;
 }
-
-/* make image 1 have image 2 on top of it */
-.img1 {  
-  position:absolute;  
-  top: 25px; 
-  left: 25px; 
-  z-index: 1; 
-}  
 .img2 { 
   position:absolute; 
-  top: 85%; 
+  top: 80%; 
   left: 30%;
-  z-index: 3; 
+  z-index: 0; 
   height:75px;
 }
 
@@ -295,8 +287,8 @@ div.desc {
 form  input {
     padding: 10px;
     margin: 0;
-    width: 400px;
-    height: 39px;
+    width: 300px;
+    height: 20px;
     }
 
 /* Makes responsive fields. Sets size and field alignment.*/
@@ -313,8 +305,8 @@ input, select{
 
 #BookingEnquiry {
     position:fixed;
-    width: 500;
-    height: 590;
+    width: 400;
+    height: 490;
     border: 2px solid;
     background-color: rgba(232, 227, 248, 0.9);
     top:13%;  
