@@ -217,6 +217,13 @@ footer div#map {
   height:75px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /*------ CSS for booking - start  ------*/
 
 
