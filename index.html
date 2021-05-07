@@ -6,56 +6,56 @@
     <link rel="stylesheet" href="./style/circus.css">
 </head>
 <body >
-    <a name="top"></a>
-<div id="navbar"> 
-    <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt="" title="Restaurant Circus home"></a>
-    <a href="#top"><img class='navimg dropshadow' src="./img/txt_img/our_shows-transparant.png" alt=""></a>
-    <a href="#menu"><img class='navimg dropshadow' src="./img/txt_img/menu-transparant.png" alt=""></a>
-    <a href="#aboutusanchor" ><img class='navimg dropshadow about_button' src="./img/txt_img/about_us-transparant.png" alt=""></a>
-    <a href="#footer"><img class='navimg dropshadow' src="./img/txt_img/contact-transparant.png" alt=""></a>
-    <a class="bmenu" href="#bookingdiv"><img class='navimg dropshadow' src="./img/txt_img/booking-transparant.png" alt=""></a>
-    <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
-</div>
 
-<div class="container" id="topcont">
-    <div class="row">
-        <div class="col-">
-            <div id="ourshows">
-                <div class="adtext " id="adtext">
-                    <p>Upcoming shows 2021</p>
-                </div>
-                <div id="fadeGallery">
-                    <img src="./img/wine lady.jpg" class="active" />
-                    <img src="./img/white drape lady.jpg" />
-                    <img src="./img/girl on drape.jpg" />
-                </div> 
-            </div> 
-        </div>
-        <div class="col-sm">
-            <ul id="showlist">
-                <img class='navimg dropshadow' src="./img/txt_img/our_shows_2021-transparant.png" alt="">
-                <li>Upcoming shows: </li>
-                <li title="Anna Eklund also known as the queen of the slackline">13/6 Anna eklund</li>
-                <li title='The wonder woman of the trapeze' >14/6 Shalini Dixit</li>
-                <li title='Acrobat extraordinaire ' >28/6 Ali Ali</li>
-                <li title='Skateboard balance artist '  >29/6 Fredrik Ygberg</li>
-                More talented artists soon too come!
-            </ul> 
-        </div>
-       
-            
-            
+    <a name="top"></a>
+    <div id="navbar"> 
+        <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt="" title="Restaurant Circus home"></a>
+        <a href="#top"><img class='navimg dropshadow' src="./img/txt_img/our_shows-transparant.png" alt=""></a>
+        <a href="#menuanchor"><img class='navimg dropshadow' src="./img/txt_img/menu-transparant.png" alt=""></a>
+        <a href="#aboutusanchor" ><img class='navimg dropshadow about_button' src="./img/txt_img/about_us-transparant.png" alt=""></a>
+        <a href="#bookinganchor" class="bmenu"><img class='navimg dropshadow' src="./img/txt_img/booking-transparant.png" alt=""></a>
+        <a href="#footeranchor"><img class='navimg dropshadow' src="./img/txt_img/contact-transparant.png" alt=""></a>
+        <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
     </div>
-</div>
-    
+
+    <div class="container" id="topcont">
+        <div class="row">
+            <div class="col-">
+                <div id="ourshows">
+                    <div class="adtext " id="adtext">
+                        <p>Upcoming shows 2021</p>
+                    </div>
+                    <div id="fadeGallery">
+                        <img src="./img/wine lady.jpg" class="active" />
+                        <img src="./img/white drape lady.jpg" />
+                        <img src="./img/girl on drape.jpg" />
+                    </div> 
+                </div> 
+            </div>
+            <div class="col-sm">
+                <ul id="showlist">
+                    <img class='navimg dropshadow' src="./img/txt_img/our_shows_2021-transparant.png" alt="">
+                    <li>Upcoming shows: </li>
+                    <li title="Anna Eklund also known as the queen of the slackline">13/6 Anna eklund</li>
+                    <li title='The wonder woman of the trapeze' >14/6 Shalini Dixit</li>
+                    <li title='Acrobat extraordinaire ' >28/6 Ali Ali</li>
+                    <li title='Skateboard balance artist '  >29/6 Fredrik Ygberg</li>
+                    More talented artists soon too come!
+                </ul> 
+            </div>   
+        </div>
+    </div>  <!-- end of topcont -->
+
     <div id="showtext">
         <!-- Placeholder for show texts -->
-    </div>
- 
+    </div> <!-- end of showtext -->
+    
+    <a name="menuanchor"></a>
     <div id="menu">
         <img src="./img/lady on table.jpg" alt="">
         <p> place for meny pdf links ? four images in line single pdf file </p>
     </div>
+
     <a name="aboutusanchor"></a>
     <div id="aboutus" class="row">
         <div class="col-sm">
@@ -75,11 +75,13 @@
                 Come, let us entertain you!
             </p>
         </div>
-    </div>
+    </div> <!-- end of menu -->
 
+    <a name="bookinganchor"></a>
     <!--Booking-->
-    <div id="bookingdiv">
-        <div id="Booking">     
+    <div id="bookingdiv" class="container">
+        <div class="row">
+            <div id="Booking" class="col-">     
             <h1>Booking</h1>
             <br/>      
             <label>Booking show</label>
@@ -100,10 +102,10 @@
                 <option>6 guests</option>             
             </select> 
             <button onclick="v()">CONTINUE</button>
-        </div>
+            </div>  <!-- end Booking -->
 
-        <!-- Gallery Show -->
-        <div class="gallery-row">
+            <!-- Gallery Show -->
+            <div class="gallery-row col-sm">
     
             <div class="responsive">
                 <div class="gallery">
@@ -120,6 +122,7 @@
                         <img src="./img/2.jpeg" alt="Cinque Terre" width="600" height="400">
                     </a>
                     <div class="desc" id='2'>Circus Show 2 Saturday 15-5-2021</div>
+                </div>
             </div>
         
             <div class="responsive">
@@ -137,13 +140,12 @@
                         <img src="./img/4.jpeg" alt="Cinque Terre" width="600" height="400">
                     </a>
                     <div class="desc" id='4'>Circus Show 4 Saturday 22-5-2021</div>
+                </div>
             </div>
-        </div>
+            </div>
 
-    
-
-        <!--BOOKING ENQUIRY-->
-        <center>  <!-- center is a decrepated tag, must be replaced with css -->
+            <!--BOOKING ENQUIRY-->
+            <center>  <!-- center is a decrepated tag, must be replaced with css -->
         <div id="BookingEnquiry" style="visibility: hidden;">
             <form  enctype="text/plain">
                 <h3>MAKE A BOOKING ENQUIRY</h3>
@@ -164,14 +166,12 @@
                 <button onclick="h()">Submit</button>         
             </form>
         </div>
-        </center>
-    </div>
-
-<!-- End booking-->
-
-</div>  
-   
-<footer>
+            </center>
+        </div>
+    </div> <!-- End bookingdiv -->
+    
+    <a name="footeranchor"></a>
+    <footer>
     <div class="container">
         <div class="row">
             <div class="col-sm">
@@ -208,11 +208,11 @@
         </div>
     </div>
 
-</footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./script/circus.js"></script>
-    <script src="./script/booking.js"></script>
+    </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./script/circus.js"></script>
+        <script src="./script/booking.js"></script>
 
 </body>
 
