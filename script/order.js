@@ -251,7 +251,7 @@ function dummy_data() {
                     ${food_item.ingredients[2].name}
                     </label>
                 </div>
-            
+
             </div>
         </div>
         
@@ -270,6 +270,8 @@ function dummy_data() {
                 <div class="minus"></div>
                 <div class="qty"><label id="qty">0</label></div>
                 <div class="plus" ></div>
+            </div>
+            <div class="sub_menu_item_ingredients" id="ingredients">
             </div>
            
         </div>

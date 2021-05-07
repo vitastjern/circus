@@ -28,9 +28,9 @@ body {
 }
 
 .wrapper-content, .nav {
-    padding: 0 5vw;
+    /*padding: 0 5vw;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto;*/
     width: 100%;
 }
 
@@ -83,7 +83,7 @@ body {
 
 .header__logo {
     display: block;
-    background-image: url(../img/Button-help.png);
+    background-image: url(../img/txt_img/logotype-transparant.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 50px;
@@ -92,7 +92,7 @@ body {
 
 .help__logo {
     display: block;
-    background-image: url(../img/Button-help.png);
+    background-image: url(../img/txt_img/help_button-transparant.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 50px;
@@ -182,7 +182,7 @@ a {
     color: #fff;
     text-align: center;
     padding: calc(7px * 1.4) 14px 7px;
-    padding-top: 2rem;
+    padding-top: 3rem;
     
 }
 
@@ -312,10 +312,9 @@ padding-top: 1rem;
     padding: 0 2rem;
 }
 
-/*.sub_menu_item_ingredients{
-
-
-}*/
+.sub_menu_item_ingredients{
+    min-height: 4.4rem;
+}
 
 .form-check {
     text-align: left;
@@ -328,6 +327,7 @@ padding-top: 1rem;
     display: block;
     height: 5rem; /* fixed header height*/
     margin: -5rem 0 0; /* negative fixed header height */
+    background-color: black;
   }
 
   h2{
@@ -341,4 +341,27 @@ padding-top: 1rem;
     font-size: 2rem;
     width: 2rem;
     text-align: left;
+  }
+
+  .place_order{
+    width: 100%;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    
+  }
+
+  .place_order_text{
+    background-color: #64130E;
+    color: white;
+    font-size: 1.5rem;
+    -webkit-appearance: none;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    border-radius: 12px;
+    padding: 0.2rem 0.5rem;
   }

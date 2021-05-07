@@ -305,7 +305,7 @@ form  input {
     height: 20px;
     }
 
-/* Makes responsive fields. Sets size and field alignment.*/
+/* Makes responsive fields. Sets size and field alignment.
 input, select{
     display: block;
     
@@ -315,7 +315,7 @@ input, select{
     padding: 15px;
     border-radius:5px;
    
-    }
+    }*/
 /*---------BookingEnquiry---------*/
 
 #BookingEnquiry {
