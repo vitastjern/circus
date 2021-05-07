@@ -196,6 +196,7 @@ footer div#map {
 #showtext{ /* using display: none so toggle will show it on the first time*/
   display: none;
 }
+
 .img2 { 
   position:absolute; 
   top: 80%; 
