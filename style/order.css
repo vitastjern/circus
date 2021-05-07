@@ -1,0 +1,344 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 5rem;
+}
+.background-pattern__wrapper {
+    background: #AE1613;
+    background: -webkit-gradient(linear, left top, left bottom, from(#AE1613), to(#64130E));
+    background: linear-gradient(to bottom, #AE1613, #64130E 100%);
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Brandon", "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+}
+
+.background-pattern {
+    background: url(../img/pattern.png);
+    background-size: 6vw;
+    background-position: center center;
+}
+
+.wrapper-content, .nav {
+    padding: 0 5vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.header__logo-wrapper {
+    width: 20%;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 3;
+    min-width: 50px;
+    min-height: 50px;
+}
+.button {
+   
+    -webkit-appearance: none;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+    background: transparent;
+    padding: 0;
+}
+
+.btn_logo{
+    background: #AE1613;
+}
+
+.header__logo {
+    display: block;
+    background-image: url(../img/Button-help.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.help__logo {
+    display: block;
+    background-image: url(../img/Button-help.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.cart__logo {
+    display: block;
+    background-image: url(../img/cart.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+
+.nav__wrapper {
+    background: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    position: static;
+    top: auto;
+    height: auto;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__links {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: center;
+}
+
+
+.nav__links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.nav__links li{
+    display: inline-block;
+    margin-bottom: 0;
+    margin: 0 calc(28px * 0.8);
+}
+
+a {
+   
+    cursor: pointer;
+}
+
+.help{
+    display: block;
+    padding-top: 1vw;
+    color: #fff;
+}
+
+.banner-heading {
+    color: #fff;
+    text-align: center;
+    padding: calc(7px * 1.4) 14px 7px;
+    padding-top: 2rem;
+    
+}
+
+.heading-small{
+    font-size: 1rem;
+
+}
+
+main {
+    padding-top: 4rem;
+}
+
+.food_menu_images_wrapper{
+    padding:1%;
+    width:110%;
+}
+.food_menu_wrapper{
+    display: inline;
+    position: relative;
+}
+
+.food_menu_images{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 18%;
+    height: 18rem;
+    padding: 0.5%;
+    cursor: pointer;
+    
+}
+
+
+.food_menu_title{
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 0.04em;
+    background: transparent;
+    position: absolute;
+    bottom: -130px;
+    left: 16px;
+
+}
+
+.menu_wrapper{
+    padding: 1%;
+
+}
+
+.menu_heading{
+    
+    color: #64130E;
+    text-align: center;
+    background-color: #fff;
+}
+
+.menu_subheading{
+    text-align: center;
+
+}
+
+.sub_menu_wrapper{
+    padding-inline-start: 5%;
+    padding-inline-end:5%;
+}
+
+.sub_menu_item_wrapper{
+    width:100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    padding-block: 2rem;
+}
+
+.sub_menu_item_img{
+    background-image: url(../img/samosas.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30%;
+  
+}
+
+.sub_menu_item_details_wrapper{
+    padding:1% 2% ;
+    width: 70%;
+   
+}
+
+.sub_menu_name_price_wrapper{
+    text-align: left;
+}
+
+.sub_menu_item_name{
+    display: inline;
+    font-size: 2rem;
+}
+.sub_menu_item_desc{
+    width:80%;
+    text-align: left;
+
+}
+.sub_menu_item_price{
+    display: inline;
+    float: right;
+}
+.sub_menu_item_qty_wrapper{
+display: flex;
+padding-top: 1rem;
+}
+.plus{
+    display: block;
+    background-image: url(../img/plus.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.minus{
+    display: block;
+    background-image: url(../img/minus.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.qty{
+    font-size: 1.5rem;
+    padding: 0 2rem;
+}
+
+/*.sub_menu_item_ingredients{
+
+
+}*/
+
+.form-check {
+    text-align: left;
+}
+
+
+
+:target::before {
+    content: "";
+    display: block;
+    height: 5rem; /* fixed header height*/
+    margin: -5rem 0 0; /* negative fixed header height */
+  }
+
+  h2{
+      font-size: 1rem;
+  }
+
+  .cart_amt{
+    position: absolute;
+    top: -1.3rem;
+    right: -1.3rem;
+    font-size: 2rem;
+    width: 2rem;
+    text-align: left;
+  }
