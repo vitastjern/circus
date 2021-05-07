@@ -15,14 +15,19 @@ body{
   height: 60px; 
   margin: -60px 0 0; 
 }
-
+:target::before {
+  content: "";
+  display: block;
+  height: 60px; 
+  margin: -60px 0 0; 
+}
 #navbar {
   overflow: hidden;
   background-color: #ddd;
   z-index: 2;
   transition: height 0.66s ease-out;
 }
-  
+
 #navbar a {
   float: left;
   display: block;
@@ -34,39 +39,32 @@ body{
  /* text-decoration: none;
   font-size: 17px;*/
 }
- 
 #navbar a:hover {
   background-color: #ccc;
   /*color: black;*/
 }
-
 .navimg{
   height: 50px;
   width: 100px;
 }
-
 .logo{
   padding-left: 10px;
   width: 50px;
 }
-
 .navbar{
   display: inline-block;
   padding-right: 20px;
   padding-bottom: 10px;
 }  
-
 .navstick {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 #ourshows{
   width:800px; 
   height:600px; 
 }
-
 #fadeGallery{
   overflow: hidden;
   padding-top: 70px;
@@ -74,18 +72,15 @@ body{
   width:800px; 
   height:600px; 
 }
-
 #fadeGallery img{
   padding-bottom: 10px;
   border-radius: 20px;
   width:100%; 
   height:100%;
 }
-
 #fadeGallery img.active{
   display:block;
 }
-
 #adtext{
   margin-top: 500px;
   margin-left: 30px;
@@ -94,28 +89,16 @@ body{
   color: rgb(233, 155, 14);
 }
 
-/* not used according to Fredrik
-#sidetext{
-  margin-top: 60px;
-  margin-left: 800px;
-  font-size: 25px;
-  background-color: black;
-  color:rgb(223, 115, 14);
-}
-*/
-
 #menu{
   padding-left: 10px;
   width: 1200px;
   height: 600px;
 }
-
 #menu img{
   padding-bottom: 10px;
   width:100%; 
   height:100%; 
 }
-
 #aboutus{
   padding-left: 10px;
  /* width: 1200px; */
@@ -136,18 +119,15 @@ body{
 #topcont{
   margin: 0px;
 }
-
 #showlist{
   padding-top: 75px;
   color: rgb(223, 115, 14);
   font-size: 20px;
 }
-
 #showlist li:hover{
   color: blueviolet;
 }
-
-a {
+a{
   text-decoration: none;
   color: #ffffff;
 }

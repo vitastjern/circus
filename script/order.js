@@ -281,6 +281,7 @@ function dummy_data() {
 
    
 
+ /*   stickyNavbar(); */
 
     $starter.append(starter_block);
     $meat.append(meat_block);
@@ -350,7 +351,7 @@ var stickybar = $('#navbar').offset();
 
 function stickyNavbar() {
     $('#myGallery').css('padding-top', '55');
-    if (window.pageYOffset >= stickybar.top) {
+    if (window.pageYOffset <= stickybar.top) {
         $('#navbar').addClass("navstick");
     } else {
         $('#navbar').removeClass("navstick");
