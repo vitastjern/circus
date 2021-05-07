@@ -1,8 +1,134 @@
 <html>
-<head>
-    <title>Order page</title>
-</head>
+
+    <head>
+        <title>Order page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./style/order.css">
+        <script src="./script/order.js"></script>
+    </head>
+
 <body>
+    <div>
+
+        <header class="header background-pattern__wrapper">
+            <div class="background-pattern">
+                <div class="wrapper-content header__flex">
+                    <div class="header__logo-wrapper">
+                        <button class="button">
+                            <span class="header__logo" aria-label="Home"></span>
+                        </button>
+                    </div>
+
+                    <div class="nav__wrapper">
+                        <ul class="nav__links">
+                            <li><a href="#starter_section"> <span>Starters</span></a></li>
+                            <li><a href="#meat_section"><span>Meat</span></a></li>
+                            <li><a href="#veg_section"><span>Vegetarian</span></a></li>
+                            <li><a href="#kid_section"><span>Kids special</span></a></li>
+                            <li><a href="#drink_section"><span>Drinks</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header__logo-wrapper">
+                        <button class="button">
+                            <span class="help__logo" aria-label="Home"><a class="help" href=""><span>
+                                        Help</span></a></span>
+                        </button>
+                    </div>
+                    <div class="header__logo-wrapper">
+                        <button class="button">
+                            <span class="cart__logo" aria-label="Home"><a class="help" href=""><span id="total" class="cart_amt">
+                                        0</span></a></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="banner-heading">
+                <h1 class="heading-small">Do you have any allergy?</h1>
+            </div>
+
+            <div class="food_menu_images_wrapper">
+                <a href="#starter_section">
+                    <div class="food_menu_wrapper">
+                        <img src="./img/veg.jpg" alt="" class="food_menu_images">
+                        <span class="food_menu_title">Starters</span>
+                    </div>
+                </a>
+                <a href="#meat_section">
+                    <div class="food_menu_wrapper">
+                        <img src="./img/meat.jpg" alt="" class="food_menu_images">
+                        <span class="food_menu_title">Meat</span>
+                    </div>
+                </a>
+                <a href="#veg_section">
+                    <div class="food_menu_wrapper">
+                        <img src="./img/veg.jpg" alt="" class="food_menu_images">
+                        <span class="food_menu_title">Vegetarian</span>
+                    </div>
+                </a>
+                <a href="#kid_section">
+                    <div class="food_menu_wrapper">
+                        <img src="./img/meat.jpg" alt="" class="food_menu_images">
+                        <span class="food_menu_title">Kids special</span>
+                    </div>
+                </a>
+
+                <a href="#drink_section">
+                    <div class="food_menu_wrapper">
+                        <img src="./img/veg.jpg" alt="" class="food_menu_images">
+                        <span class="food_menu_title">Drinks</span>
+                    </div>
+                </a>
+
+            </div>
+
+
+            <div class="menu_wrapper">
+                <div class="menu_heading">
+                    <h1>Menu</h1>
+                </div>
+
+                <div class="menu_subheading" id="starter_section">
+                    <h3>Starters</h3>
+                </div>
+                <div class="sub_menu_wrapper" id="starter"> </div>
+
+
+                <div class="menu_subheading" id="meat_section">
+                    <h3>Meat</h3>
+                </div>   
+                <div class="sub_menu_wrapper" id="meat"> </div>
+
+                <div class="menu_subheading" id="veg_section">
+                    <h3>Vegetarian</h3>
+                </div>   
+                <div class="sub_menu_wrapper" id="veg"> </div>
+
+                <div class="menu_subheading" id="kid_section">
+                    <h3>Kids special</h3>
+                </div>   
+                <div class="sub_menu_wrapper" id="kid"> </div>
+
+                <div class="menu_subheading" id="drink_section">
+                    <h3>Drinks</h3>
+                </div> 
+                <div class="sub_menu_wrapper" id="drink"> </div>
+               
+
+            </div>
     
-</body>
+
+            </main>
+
+            <footer>
+
+            </footer>
+        </div>
+    </body>
+
 </html>
