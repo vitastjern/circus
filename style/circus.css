@@ -1,12 +1,6 @@
 body{
-  /*align-items: left;*/
   background-color: #ddd;
   z-index: 1;
-  /*
-  margin: 0px;
-    padding: 0px;
-    background: url('./img/background.png') center;
-    */
 }
 
 :target::before {
@@ -15,12 +9,7 @@ body{
   height: 60px; 
   margin: -60px 0 0; 
 }
-:target::before {
-  content: "";
-  display: block;
-  height: 60px; 
-  margin: -60px 0 0; 
-}
+
 #navbar {
   overflow: hidden;
   background-color: #ddd;
@@ -39,32 +28,38 @@ body{
  /* text-decoration: none;
   font-size: 17px;*/
 }
+
 #navbar a:hover {
   background-color: #ccc;
-  /*color: black;*/
 }
+
 .navimg{
   height: 50px;
   width: 100px;
 }
+
 .logo{
   padding-left: 10px;
   width: 50px;
 }
+
 .navbar{
   display: inline-block;
   padding-right: 20px;
   padding-bottom: 10px;
-}  
+}
+
 .navstick {
   position: fixed;
   top: 0;
   width: 100%;
 }
+
 #ourshows{
   width:800px; 
   height:600px; 
 }
+
 #fadeGallery{
   overflow: hidden;
   padding-top: 70px;
@@ -72,15 +67,18 @@ body{
   width:800px; 
   height:600px; 
 }
+
 #fadeGallery img{
   padding-bottom: 10px;
   border-radius: 20px;
   width:100%; 
   height:100%;
 }
+
 #fadeGallery img.active{
   display:block;
 }
+
 #adtext{
   margin-top: 500px;
   margin-left: 30px;
@@ -94,11 +92,13 @@ body{
   width: 1200px;
   height: 600px;
 }
+
 #menu img{
   padding-bottom: 10px;
   width:100%; 
   height:100%; 
 }
+
 #aboutus{
   padding-left: 10px;
  /* width: 1200px; */
@@ -114,22 +114,21 @@ body{
 #bookingdiv {
   padding-left:10px;
   width: 1200px;
+
 }
 
 #topcont{
   margin: 0px;
 }
+
 #showlist{
   padding-top: 75px;
   color: rgb(223, 115, 14);
   font-size: 20px;
 }
+
 #showlist li:hover{
   color: blueviolet;
-}
-a{
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .dropshadow {  
@@ -144,65 +143,69 @@ a{
   font-size: 20px;
 }
 
-footer { 
-    background-color: black;
-    display: block;
-    font-family: Garamond, serif;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
+/*
+  #aboutus img{
+    padding-bottom: 10px;
+    width:100%;
+    height:100%;
+  }
+*/
+  /*footer*/
 
-footer div {
-    display: inline-block;
-}
-
-footer .logotype {
-    height: 150px;
-    padding-left: 20px;
-}
-
-footer .heading {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-footer .social {
-    height:40px;
-    padding:5px;
-}
-
-footer div#map {
-  height: 150px;
-  width: 300px;
-  padding: 10px;
-}
+  footer {    
+      background-color: black;
+      display: block;
+      font-family: Garamond, serif;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      padding-right: 30px;
+      padding-bottom: 12px;
+      padding-top: 5px;  
+  }
   
-.navimg{
-  height: 50px;
-  width: 100px;
-}
-
-.logo{
-  padding-left: 10px;
-  width: 50px;
-}
-
-#callwaiter{
+  footer div {
+      display: inline-block;
+  }
+  
+  footer .logotype {
+      height: 150px;
+      padding-left: 20px;
+  }
+  
+  footer .heading {
+      font-size: 22px;
+      font-weight: bold;
+  }
+  
+  footer .social {
+      height:40px;
+      padding:5px;
+  }
+  
+  footer div#map {
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  #callwaiter{
+      display: none;
+      z-index: 2;
+  }
+  
+  #showtext{ /* using display: none so toggle will show it on the first time*/
     display: none;
     z-index: 1;
 }
 
-#showtext{ /* using display: none so toggle will show it on the first time*/
-  display: none;
-}
 
 .img2 { 
   position:absolute; 
   top: 80%; 
   left: 30%;
+  height: 75px;
   z-index: 0; 
-  height:75px;
 }
 
 .center {
@@ -215,7 +218,7 @@ footer div#map {
 /*------ CSS for booking - start  ------*/
 
 
- Gallery*/
+ /*Gallery*/
   div.gallery {
     border: 1px solid #ccc;
   }
@@ -228,6 +231,11 @@ div.gallery img {
     width: 100%;
     height: auto;
   }
+
+.galleryimg {
+  width: 600;
+  height: 400;
+}
   
 div.desc {
     padding: 15px;
@@ -264,11 +272,12 @@ div.desc {
 }
 /* Booking style */
 
-.gallery-row{
+.paddedrow{
     padding: 20px; 
+   
 }
+
 #Booking {
-     
     padding: 5px; 
     float:left ;
     background-color:rgb(199, 150, 28,0.5);
@@ -282,14 +291,13 @@ div.desc {
 form  input {
     padding: 10px;
     margin: 0;
-    width: 300px;
-    height: 20px;
+    width: 400px;
+    height: 39px;
     }
 
 /* Makes responsive fields. Sets size and field alignment.
 input, select{
     display: block;
-    
     margin-bottom: 20px;
     margin-top: 10px;
     width: 250px;
@@ -301,15 +309,48 @@ input, select{
 
 #BookingEnquiry {
     position:fixed;
-    z-index: 1;
-    width: 400;
-    height: 490;
+    width: 500;
+    height: 590;
     border: 2px solid;
     background-color: rgba(232, 227, 248, 0.9);
-    top:13%;  
-    bottom: 0;
+    top:10%; 
     left: 20%;
-    right:  50%;
-    border-radius: 5%;   
+    right:50%;
+    border-radius: 5%;  
+    display: block; 
 }
-/*------ CSS for booking - end  ------*/
+
+/* BookingPage */
+#BookingPage {
+  height: 75%;
+} 
+
+
+ul{
+    margin: 0px;
+    Padding: 0px;
+    list-style: none;
+    background-color:#000;
+    
+    /*center the text */
+}
+li{
+    
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+       
+    line-height: 40px;
+    
+
+}
+li a {
+    display: inline;
+    padding: 20px;
+    
+  }
+
+a{
+    text-decoration: none;
+    color: #f8f1f1;
+}

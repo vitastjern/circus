@@ -54,18 +54,18 @@
     <div id="menu">
         <img src="./img/lady on table.jpg" alt="">
         <p> place for meny pdf links ? four images in line single pdf file </p>
-    </div>
+    </div> <!-- end of menu -->
 
     <a name="aboutusanchor"></a>
     <div id="aboutus" class="row">
-        <div class="col-sm">
-            <img class="img1 about_button" id="aboutimg" src="./img/man on table.jpg" alt="">
-            <img class="img2 dropshadow about_button" src="./img/txt_img/about_us-transparant.png" alt="">
+        <div class="col-">
+            <img id="aboutimg" src="./img/man on table.jpg" alt="">
+            <img class="img2 dropshadow" src="./img/txt_img/about_us-transparant.png" alt="About Us">
         </div>
-        <div id="about" style="display:none;" class="col-">
+        <div id="about" style="display:none;" class="col-sm">
             <h1>About Us</h1>
             <p>
-                Restaurant Circus opened in May 2021 by a Ida Krone, an fantastic chef and former circus artist
+                Restaurant Circus opened in May 2021 by a Ida Krone, a fantastic chef and former circus artist
                 and animal trainer with a burning interest to promote the circus arts. To get the absolute 
                 best of the two worlds we offer exciting and whimsical shows with top artists performing 
                 both traditional circus acts as well as contemporary acts. <br>
@@ -75,144 +75,142 @@
                 Come, let us entertain you!
             </p>
         </div>
-    </div> <!-- end of menu -->
+    </div> <!-- end of about us -->
 
     <a name="bookinganchor"></a>
     <!--Booking-->
     <div id="bookingdiv" class="container">
         <div class="row">
             <div id="Booking" class="col-">     
-            <h1>Booking</h1>
-            <br/>      
-            <label>Booking show</label>
-            <select id="mySelect1" onchange="s()">
-                <option selected disabled>Select a show</option>
-                <option>Circus Show 1 Friday </option>
-                <option>Circus Show 2 Saturday</option>
-                <option>Circus Show 3 Friday </option>
-                <option>Circus Show 4 Saturday</option>               
-            </select >  
-            <label>Number of people</label>
-            <select id="mySelect2">
-                <option selected disabled></option>
-                <option>2 guests</option>
-                <option>3 guests</option>
-                <option>4 guests</option>
-                <option>5 guests</option>
-                <option>6 guests</option>             
-            </select> 
-            <button onclick="v()">CONTINUE</button>
+                <h1>Booking</h1>
+                <br/>      
+                <label>Book a show</label><br>
+                <select id="mySelect1" onchange="s()">
+                    <option selected disabled>Select a show</option>
+                    <option>Circus Show 1 Friday </option>
+                    <option>Circus Show 2 Saturday</option>
+                    <option>Circus Show 3 Friday </option>
+                    <option>Circus Show 4 Saturday</option>               
+                </select><br>  
+                <label>Number of people</label><br>
+                <select id="mySelect2">
+                    <option selected disabled></option>
+                    <option>2 guests</option>
+                    <option>3 guests</option>
+                    <option>4 guests</option>
+                    <option>5 guests</option>
+                    <option>6 guests</option>             
+                </select><br><br>
+                <button onclick="v()">CONTINUE</button>
             </div>  <!-- end Booking -->
 
             <!-- Gallery Show -->
-            <div class="gallery-row col-sm">
+            <div class="paddedrow col-sm">
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="./img/1.jfif">
+                            <img class="galleryimg" src="./img/1.jfif" alt="Cinque Terre">
+                        </a>
+                        <div class="desc" id='1'>Circus Show 1 Friday 14-5-2021</div>
+                    </div>
+                </div>
     
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="./img/1.jfif">
-                        <img src="./img/1.jfif" alt="Cinque Terre" width="600" height="400">
-                    </a>
-                    <div class="desc" id='1'>Circus Show 1 Friday 14-5-2021</div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="./img/2.jpeg">
+                            <img class="galleryimg" src="./img/2.jpeg" alt="Cinque Terre">
+                        </a>
+                        <div class="desc" id='2'>Circus Show 2 Saturday 15-5-2021</div>
+                    </div>
                 </div>
-            </div>
-   
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="./img/2.jpeg">
-                        <img src="./img/2.jpeg" alt="Cinque Terre" width="600" height="400">
-                    </a>
-                    <div class="desc" id='2'>Circus Show 2 Saturday 15-5-2021</div>
-                </div>
-            </div>
-        
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="./img/3.jpg">
-                        <img src="./img/3.jpg" alt="Cinque Terre" width="600" height="400">
-                    </a>
-                    <div class="desc" id='3'>Circus Show 3 Friday 21-5-2021</div>
-                </div>
-            </div>
     
-            <div class="responsive">
-                <div class="gallery">
-                    <a target="_blank" href="./img/4.jpeg">
-                        <img src="./img/4.jpeg" alt="Cinque Terre" width="600" height="400">
-                    </a>
-                    <div class="desc" id='4'>Circus Show 4 Saturday 22-5-2021</div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="./img/3.jpg">
+                            <img class="galleryimg" src="./img/3.jpg" alt="Cinque Terre">
+                        </a>
+                        <div class="desc" id='3'>Circus Show 3 Friday 21-5-2021</div>
+                    </div>
                 </div>
-            </div>
+
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="./img/4.jpeg">
+                            <img class="galleryimg" src="./img/4.jpeg" alt="Cinque Terre">
+                        </a>
+                        <div class="desc" id='4'>Circus Show 4 Saturday 22-5-2021</div>
+                    </div>
+                </div>
             </div>
 
             <!--BOOKING ENQUIRY-->
             <center>  <!-- center is a decrepated tag, must be replaced with css -->
-        <div id="BookingEnquiry" style="visibility: hidden;">
-            <form  enctype="text/plain">
-                <h3>MAKE A BOOKING ENQUIRY</h3>
-                <label for="email">Enter your email *</label> 
-                <input type="email" name="email"> 
-                <label for="text">Company Name</label>
-                <input type="text" name="Company Name">
-                <label for="text">First Name *</label>
-                <input type="text" name="First Name">
-                <label for="text">Last Name *</label>
-                <input type="text" name="Last Name">
-                <label for="tel">Mobile Number *</label>
-                <input type="tel" name="phonenumber" min="6" max="15">  
-                <label for="textarea">Special Requests</label>  
-                <br>     
-                <textarea name="comments" cols="20" rows="4" style='width: 300px;'></textarea>
-                <br> 
-                <button onclick="h()">Submit</button>         
-            </form>
-        </div>
+            <div id="BookingEnquiry" style="visibility: hidden;">
+                <form  enctype="text/plain">
+                    <h3>MAKE A BOOKING ENQUIRY</h3>
+                    <label for="email">Enter your email *</label><br>
+                    <input type="email" name="email"><br>
+                    <label for="text">Company Name</label><br>
+                    <input type="text" name="Company Name"><br>
+                    <label for="text">First Name *</label><br>
+                    <input type="text" name="First Name"><br>
+                    <label for="text">Last Name *</label><br>
+                    <input type="text" name="Last Name"><br>
+                    <label for="tel">Mobile Number *</label><br>
+                    <input type="tel" name="phonenumber" min="6" max="15"><br>
+                    <label for="textarea">Special Requests</label><br>
+                    <textarea name="comments" cols="20" rows="4" style='width: 300px;'></textarea>
+                    <br> 
+                    <button onclick="h()">Submit</button>         
+                </form>
+            </div>
             </center>
-        </div>
-    </div> <!-- End bookingdiv -->
+        </div> <!-- end bookingdiv row -->
+    </div> <!-- End bookingdiv container-->
     
     <a name="footeranchor"></a>
     <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <a href="#top">
-                    <img class="logotype dropshadow" src="./img/txt_img/logotype-transparant.png" alt="Restaurant Circus">
-                </a>
-            </div>
-            <div class="col-sm">
-                <p class="heading"> Restaurant Circus</p>
-                <p> 
-                    Passeig de Pere III, 36 <br>
-                    08242 Manresa <br>
-                    Barcelona, Spain <br>
-                    phone: +34938769226 <br>
-                </p>
-            </div>
-
-            <div class="col-sm">
-                <p class="heading">Follow us on social media: </p> 
-                <p>
-                    <a href="https://facebook.com">
-                    <img class="social" src="./img/f_logo_RGB-Blue_58.png" alt="Facebook"></a>
-                    <a href="https://twitter.com">
-                    <img class="social" src="./img/2021 Twitter logo - blue.png" alt="Twitter"></a>
-                    <a href="https://instagram.com">
-                    <img class="social" src="./img/Instagram_Glyph_Gradient_RGB.png" alt="Instagram"></a>
-                </p>
-            </div>
-
-            <div id="map" class="dropshadow col-">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.661393188184!2d1.821665316226076!3d41.72782497923457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4580d17198c37%3A0xc077e214328b5847!2sRestaurant%20Circus!5e0!3m2!1ssv!2sse!4v1620205427652!5m2!1ssv!2sse" 
-                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="#top">
+                        <img class="logotype dropshadow" src="./img/txt_img/logotype-transparant.png" alt="Restaurant Circus">
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <p class="heading"> Restaurant Circus</p>
+                    <p> 
+                        Passeig de Pere III, 36 <br>
+                        08242 Manresa <br>
+                        Barcelona, Spain <br>
+                        phone: +34938769226 <br>
+                    </p>
+                </div>
+            
+                <div class="col-sm">
+                    <p class="heading">Follow us on social media: </p> 
+                    <p>
+                        <a href="https://facebook.com">
+                        <img class="social" src="./img/f_logo_RGB-Blue_58.png" alt="Facebook"></a>
+                        <a href="https://twitter.com">
+                        <img class="social" src="./img/2021 Twitter logo - blue.png" alt="Twitter"></a>
+                        <a href="https://instagram.com">
+                        <img class="social" src="./img/Instagram_Glyph_Gradient_RGB.png" alt="Instagram"></a>
+                    </p>
+                </div>
+            
+                <div id="map" class="dropshadow col-">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.661393188184!2d1.821665316226076!3d41.72782497923457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4580d17198c37%3A0xc077e214328b5847!2sRestaurant%20Circus!5e0!3m2!1ssv!2sse!4v1620205427652!5m2!1ssv!2sse" 
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
-    </div>
-
+    
     </footer>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="./script/circus.js"></script>
-        <script src="./script/booking.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script/circus.js"></script>
+    <script src="./script/booking.js"></script>
 
 </body>
 
