@@ -146,7 +146,7 @@ function dummy_data() {
             <div class="sub_menu_item_qty_wrapper">
                 <div class="minus" ></div>
                 <div class="qty"><label id="qty">0</label></div>
-                <div class="plus" onclick="inc_qty()"></div>
+                <div class="plus"></div>
             </div>
             <div class="sub_menu_item_ingredients" id="ingredients">
 
@@ -187,7 +187,7 @@ function dummy_data() {
             <div class="sub_menu_item_qty_wrapper">
                 <div class="minus" ></div>
                 <div class="qty"><label id="qty">0</label></div>
-                <div class="plus" onclick="inc_qty()"></div>
+                <div class="plus"></div>
             </div>
             <div class="sub_menu_item_ingredients" id="ingredients">
 
@@ -330,23 +330,17 @@ $(document).ready(function () {
         
     });
     
-    $( window ).scroll(function(){stickyNavbar()}); //runs the stickynavbar function when scrolling main window
-    $(this).scrollTop(0); // scrolls the page back to top on reload 
+    //$( window ).scroll(function(){stickyNavbar()}); 
+    //runs the stickynavbar function when scrolling main window
+    //$(this).scrollTop(0); 
+    // scrolls the page back to top on reload 
     
     $('.help').click(function(){helpme()})
 
 });
 
 
-var total=0;
-function calc_total() {
-
-}
-
-
-//dummy_data();
-
-
+/*
 var stickybar = $('#navbar').offset();
 
 function stickyNavbar() {
@@ -356,7 +350,7 @@ function stickyNavbar() {
     } else {
         $('#navbar').removeClass("navstick");
     }
-}
+}*/
 
 function helpme(){  //function to toggle the help msg 
     
