@@ -144,7 +144,7 @@ body{
 
   /*footer*/
 
-  footer {    
+footer {    
       background-color: black;
       display: block;
       font-family: Garamond, serif;
@@ -204,33 +204,6 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-
-ul{
-  margin: 0px;
-  Padding: 0px;
-  list-style: none;
-  background-color:#000;
-  
-  /*center the text */
-}
-li{  
-  display: inline-block;
-  padding: 20px;
-  font-size: 24px;     
-  line-height: 40px;
-
-}
-li a {
-  display: inline;
-  padding: 20px;
-  
-}
-
-a{
-  text-decoration: none;
-  color: #f8f1f1;
 }
 
 
