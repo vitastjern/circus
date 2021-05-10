@@ -33,20 +33,17 @@ body{
   padding-left: 0px !important;
   width: 100%;
   height: 100%;
-  box-sizing: content-box;
+  
 }
 
 
 #navbar a {
   float: left;
   display: block;
-  /*color: #f2f2f2;
-  text-align: center;*/
+ 
   padding-right: 30px;
   padding-bottom: 12px;
   padding-top: 5px;
- /* text-decoration: none;
-  font-size: 17px;*/
 }
 
 #navbar a:hover {
@@ -75,17 +72,16 @@ body{
   width: 100%;
 }
 
-#ourshows{
-  width:800px; 
-  height:600px; 
-}
+
 
 #fadeGallery{
   overflow: hidden;
   padding-top: 70px;
   padding-left: 0px;
+ 
   width:800px; 
   height:600px; 
+  
 }
 
 #fadeGallery img{
@@ -130,13 +126,14 @@ body{
 
 #aboutimg{
   padding-bottom: 10px; 
-  width:120%; 
+  width:100%; 
   height:100%;
   
 }
 
 #about-ida {
-  height:45%;
+  height:50%;
+  width: 90%;
 }
 
 #topcont{
