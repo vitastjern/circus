@@ -347,16 +347,16 @@ function calc_total() {
 //dummy_data();
 
 
-var stickybar = $('#navbar').offset();
+// var stickybar = $('#navbar').offset();
 
-function stickyNavbar() {
-    $('#myGallery').css('padding-top', '55');
-    if (window.pageYOffset <= stickybar.top) {
-        $('#navbar').addClass("navstick");
-    } else {
-        $('#navbar').removeClass("navstick");
-    }
-}
+// function stickyNavbar() {
+//     $('#myGallery').css('padding-top', '55');
+//     if (window.pageYOffset <= stickybar.top) {
+//         $('#navbar').addClass("navstick");
+//     } else {
+//         $('#navbar').removeClass("navstick");
+//     }
+// }
 
 function helpme(){  //function to toggle the help msg 
     

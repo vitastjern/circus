@@ -1,5 +1,5 @@
 body{
-  background-color: #ddd;
+  background-color: #000;
   z-index: 1;
 }
 
@@ -9,14 +9,34 @@ body{
   height: 60px; 
   margin: -60px 0 0; 
 }
-
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 5rem;
+}
 #navbar {
   overflow: hidden;
-  background-color: #ddd;
-  z-index: 2;
+  background: #AE1613;
+  background: linear-gradient(to bottom, #AE1613, #64130E 100%);
+  
   transition: height 0.66s ease-out;
 }
+.mt-0 {
+  margin-left: 0px !important;
+}
 
+#aboutuscont{
+  margin-left: 0px !important;
+}
+
+.background-pattern {
+  background: url(../img/pattern.png);
+  background-size: 6vw;
+  background-position: center center;
+}
 #navbar a {
   float: left;
   display: block;
@@ -30,7 +50,7 @@ body{
 }
 
 #navbar a:hover {
-  background-color: #ccc;
+  background-color: #64130E;
 }
 
 .navimg{
@@ -131,8 +151,9 @@ body{
 }
 
 #showlist{
+  background-color: #000;
   padding-top: 75px;
-  color: rgb(223, 115, 14);
+  color: rgb(233, 155, 14);
   font-size: 20px;
 }
 
@@ -151,6 +172,7 @@ body{
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
+  color: rgb(233, 155, 14);
 }
 
   /*footer*/
@@ -327,32 +349,3 @@ input, select{
   height: 75%;
 } 
 
-
-ul{
-    margin: 0px;
-    Padding: 0px;
-    list-style: none;
-    background-color:#000;
-    
-    /*center the text */
-}
-li{
-    
-    display: inline-block;
-    padding: 20px;
-    font-size: 24px;
-       
-    line-height: 40px;
-    
-
-}
-li a {
-    display: inline;
-    padding: 20px;
-    
-  }
-
-a{
-    text-decoration: none;
-    color: #f8f1f1;
-}

@@ -6,16 +6,21 @@
     <link rel="stylesheet" href="./style/circus.css">
 </head>
 <body >
+    
     <a name="top"></a>
-    <div id="navbar"> 
-        <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt="" title="Restaurant Circus home"></a>
-        <a href="#top"><img class='navimg dropshadow' src="./img/txt_img/our_shows-transparant.png" alt=""></a>
-        <a href="#menuanchor"><img class='navimg dropshadow' src="./img/txt_img/menu-transparant.png" alt=""></a>
-        <a href="#aboutusanchor" ><img class='navimg dropshadow about_button' src="./img/txt_img/about_us-transparant.png" alt=""></a>
-        <a href="#bookinganchor" class="bmenu"><img class='navimg dropshadow' src="./img/txt_img/booking-transparant.png" alt=""></a>
-        <a href="#footeranchor"><img class='navimg dropshadow' src="./img/txt_img/contact-transparant.png" alt=""></a>
-        <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
+    <header class="header background-pattern__wrapper">
+    <div class="background-pattern">
+        <div id="navbar" class=""> 
+            <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt="" title="Restaurant Circus home"></a>
+            <a href="#top"><img class='navimg dropshadow' src="./img/txt_img/our_shows-transparant.png" alt=""></a>
+            <a href="#menuanchor"><img class='navimg dropshadow' src="./img/txt_img/menu-transparant.png" alt=""></a>
+            <a href="#aboutusanchor" ><img class='navimg dropshadow about_button' src="./img/txt_img/about_us-transparant.png" alt=""></a>
+            <a href="#bookinganchor" class="bmenu"><img class='navimg dropshadow' src="./img/txt_img/booking-transparant.png" alt=""></a>
+            <a href="#footeranchor"><img class='navimg dropshadow' src="./img/txt_img/contact-transparant.png" alt=""></a>
+            <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
+        </div>
     </div>
+    </header>
 
     <div class="container" id="topcont">
         <div class="row">
@@ -52,31 +57,35 @@
     <a name="menuanchor"></a>
     <div id="menu">
         <img src="./img/lady on table.jpg" alt="">
-        <p> place for meny pdf links ? four images in line single pdf file </p>
+        
     </div> <!-- end of menu -->
 
     <a name="aboutusanchor"></a>
-    <div id="aboutus" class="row">
-        <div class="col-sm">
-            <img class="about_button" id="aboutimg" src="./img/man on table.jpg" alt="">
-            <img class="img2 dropshadow about_button" src="./img/txt_img/about_us-transparant.png" alt="About Us">
-        </div>
-        <div id="about" style="display:none;" class="col-">
-            <h1>About Us</h1>
-            <p>
-                Restaurant Circus opened in May 2021 by a Ida Krone, a fantastic chef and former circus artist
-                and animal trainer with a burning interest to promote the circus arts. To get the absolute 
-                best of the two worlds we offer exciting and whimsical shows with top artists performing 
-                both traditional circus acts as well as contemporary acts. <br>
-                This is combined with the best foods and drinks to guarantee you a fantastical evening!
-            </p>
-            <p>
-                <h2>Come, let us entertain you!</h2>
-                <img id="about-ida" src="./img/Friedländer.plakat.9.7.krone.jpg" alt="">
-            </p>
-        </div>
-    </div> <!-- end of about us -->
-
+    <div class="container" id="aboutuscont">
+        <div id="aboutus" class="row">
+            <div id="abouttop" class="col-xl">
+                <img class="about_button" id="aboutimg" src="./img/man on table.jpg" alt="">
+                <img  id="aboutimg2" class="img2 dropshadow about_button" src="./img/txt_img/about_us-transparant.png" alt="About Us">
+            </div>
+            <div id="about" style="display:none;" class="col-sm-auto">
+                <h1>About Us</h1>
+                <p>
+                    Restaurant Circus opened in May 2021 by a Ida Krone, a fantastic chef and former circus artist
+                    and animal trainer with a burning interest to promote the circus arts. To get the absolute 
+                    best of the two worlds we offer exciting and whimsical shows with top artists performing 
+                    both traditional circus acts as well as contemporary acts. <br>
+                    This is combined with the best foods and drinks to guarantee you a fantastical evening!
+                </p>
+                <p>
+                    <h2>Come, let us entertain you!</h2>
+                    
+                </p>
+            </div>
+            <div class="col-" ><img id="about-ida" style="display:none;" src="./img/Friedländer.plakat.9.7.krone.jpg" alt="">
+            
+            </div>
+        </div> <!-- end of about us -->
+    </div>
     <a name="bookinganchor"></a>
     <!--Booking-->
     <div id="bookingdiv" class="container bookingbackground" >

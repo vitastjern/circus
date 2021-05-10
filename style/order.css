@@ -6,11 +6,11 @@
     z-index: 10;
     height: 5rem;
 }
-.background-pattern__wrapper {
+ .background-pattern__wrapper {
     background: #AE1613;
     background: -webkit-gradient(linear, left top, left bottom, from(#AE1613), to(#64130E));
     background: linear-gradient(to bottom, #AE1613, #64130E 100%);
-}
+} 
 
 body {
     background-color: #000;

@@ -3,12 +3,17 @@ $(document).ready(function(){
     //$(this).scrollTop(0);                               // scrolls the page back to top on reload 
     //$( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
-    $('#fadeGallery').click(function(){window.location="#booking"});
+    $('#fadeGallery').click(function(){window.location="#bookinganchor"});
     //$( document ).tooltip();
     $(".about_button").click(function(){
         $('#about').css('height', '400');
         $('#about').css('width', '400');
+       
         $('#about').toggle(1000);
+        $('#about-ida').toggle(1000);
+        $('#aboutimg2').toggle(1000).css('display:none');
+        
+       
     });
    
 });
