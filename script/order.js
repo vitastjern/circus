@@ -35,7 +35,7 @@ function dummy_data() {
     capsicum = new Ingredient("Capsicums", "Add green, red and yellow capsicums", 0.00);
 
     //Starters
-    samosa = new Food_item("samosa", "Spicy mouth watering vegeterian snack from India. Served along with mint chutney and sweet and sour tamarind chutney", 100.00, [new Ingredient("Mint chutney", "Spicy sauce", 5.00, false), new Ingredient("Tamarind chutney", "", 5.00, false), new Ingredient("Paneer stuffing", "Replace original potato stuffing with cottage cheese stuffing", 10.00), gluten_free]);
+    samosa = new Food_item("Samosa", "Spicy mouth watering vegeterian snack from India. Served along with mint chutney and sweet and sour tamarind chutney", 100.00, [new Ingredient("Mint chutney", "Spicy sauce", 5.00, false), new Ingredient("Tamarind chutney", "", 5.00, false), new Ingredient("Paneer stuffing", "Replace original potato stuffing with cottage cheese stuffing", 10.00), gluten_free]);
     honey_chilli_potato = new Food_item("Chilli honey potato", "Crunchy potatoes cooked with spicy green chillies and sweet honey", 100.00, [capsicum,ketchup,mayonnaise]);
     fries = new Food_item("Fries", "Crunchy fries of regular potatoes", 80.00, [cheese, jalapenos, sour_cream]);
     sweet_potato_fries = new Food_item("Sweet Potato fries", "Crunchy fries of sweet potatoes", 80.00, [cheese, jalapenos, sour_cream]);
@@ -60,7 +60,9 @@ function dummy_data() {
     lazy_white = new Food_item("Lazy Bone Shiraz White", "White wine 175 ML",10.00);
     house_white = new Food_item("House White", "White wine 175 ML",10.00);
     grigio_white = new Food_item("Grigio White", "White wine 175 ML",10.00);
-   
+    soda_cola = new Food_item("Soda Pop Cola", "Classical cola taste 330 ML", 5.00);
+    sparkling_water = new Food_item("Sparkling Water", "The finest sparkling water from Ramlösa Brunn 330 ML", 5.00);
+    still_water = new Food_item("Loka Brunn Still Water", "Ice cold still water from Loka Brunn 330 ML", 5.00);
 
     
    
@@ -70,7 +72,7 @@ function dummy_data() {
     bombay_bramble = new Food_item("Bombay Bramble", "Bombay Bramble gin, lemon juice & sugar", 950.00
     );
 
-    drink = new Food_menu("Drinks", [house_red,lazy_red,grigio_red,house_white,lazy_white,grigio_white,summer_berry_spiritz,bombay_bramble]);
+    drink = new Food_menu("Drinks", [house_red,lazy_red,grigio_red,house_white,lazy_white,grigio_white,summer_berry_spiritz,bombay_bramble,soda_cola,sparkling_water,still_water]);
 
     
 

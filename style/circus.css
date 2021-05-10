@@ -1,5 +1,5 @@
 body{
-  background-color: #ddd;
+  background-color: black;
   z-index: 1;
 }
 
@@ -141,12 +141,13 @@ body{
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
+  color:white;
 }
 
   /*footer*/
 
 footer {    
-      background-color: black;
+      /*background-color: black;*/
       display: block;
       font-family: Garamond, serif;
       text-decoration: none;
