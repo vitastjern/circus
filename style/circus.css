@@ -19,6 +19,9 @@ body{
 }
 #navbar {
   overflow: hidden;
+  background: url(../img/pattern.png);
+    background-size: 6vw;
+    background-position: center center;
   background: #AE1613;
   background: linear-gradient(to bottom, #AE1613, #64130E 100%);
   

@@ -281,7 +281,7 @@ function dummy_data() {
 
    
 
- /*   stickyNavbar(); */
+ 
 
     $starter.append(starter_block);
     $meat.append(meat_block);
@@ -330,8 +330,8 @@ $(document).ready(function () {
         
     });
     
-    $( window ).scroll(function(){stickyNavbar()}); //runs the stickynavbar function when scrolling main window
-    $(this).scrollTop(0); // scrolls the page back to top on reload 
+    // $( window ).scroll(function(){stickyNavbar()}); //runs the stickynavbar function when scrolling main window
+    // $(this).scrollTop(0); // scrolls the page back to top on reload 
     
     $('.help').click(function(){helpme()})
 
@@ -344,7 +344,7 @@ function calc_total() {
 }
 
 
-//dummy_data();
+// dummy_data();
 
 
 // var stickybar = $('#navbar').offset();
