@@ -1,31 +1,15 @@
 <html>
 
-    <head>
-        <title>Order page</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link rel="stylesheet" href="./style/circus.css"> 
-        <link rel="stylesheet" href="./style/order.css">
-    </head>
+<head>
+    <title>Order page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/circus.css">
+    <link rel="stylesheet" href="./style/order.css">
+</head>
 
-<body>
-<!--
-     <a name='top'></a>
-    <div id="navbar" class='navbar'>
-        
-        <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
-        <a href="#menu"><img class='navimg dropshadow' src="./img/txt_img/menu-transparant.png" alt=""></a>
-        <a href="#order"><img class='navimg dropshadow' src="./img/txt_img/order_here-transparant.png" alt=""></a>
-        <a  href="#help2"><img class='navimg dropshadow help' src="./img/txt_img/need_help-transparant.png" alt=""></a>
-        <a  href="#help"><img class='navimg dropshadow logo help' src="./img/txt_img/help_button-transparant.png" alt=""></a>
-        <a href="#top"><img class='navimg dropshadow logo' src="./img/txt_img/logotype-transparant.png" alt=""></a>
-    </div>
-    <div id ='callwaiter' role="alert">
-        
-      </div>
--->
+<body class="body_wrapper">
     <div>
-
         <header class="header background-pattern__wrapper">
             <div class="background-pattern">
                 <div class="wrapper-content header__flex">
@@ -36,35 +20,32 @@
                     </div>
 
                     <div class="nav__wrapper">
-                        <ul  class="nav__links ">
-                            <li><a href="#menu_section"><img class='navimg dropshadow' src="./img/txt_img/menu-transparant.png" alt=""></a></li>
-                            <li><a href="#order_here"><img class='navimg dropshadow' src="./img/txt_img/order_here-transparant.png" alt=""></a></li>
-                            <li><a href="#help2"><img class='navimg dropshadow' src="./img/txt_img/need_help-transparant.png" alt="" onclick="helpme()"></a></li>
-                            
+                        <ul class="nav__links ">
+                            <li><a href="#menu_section"><img class='navimg dropshadow'
+                                        src="./img/txt_img/menu-transparant.png" alt=""></a></li>
+                            <li><a href="#order_here"><img class='navimg dropshadow'
+                                        src="./img/txt_img/order_here-transparant.png" alt=""></a></li>
+                            <li><a href="#help2"><img class='navimg dropshadow'
+                                        src="./img/txt_img/need_help-transparant.png" alt="" onclick="helpme()"></a>
+                            </li>
+
                         </ul>
                     </div>
-                    
 
                     <div class="header__logo-wrapper">
-                        <button class="button" >
-                            <span class="help__logo navimg dropshadow logo" aria-label="Home"><a class="help" href="" onclick="helpme()"><span>
-                                        </span></a></span>
-                        </button>
-                    </div>
-                    <div class="header__logo-wrapper">
                         <button class="button">
-                            <span class="cart__logo" aria-label="Home"><a class="help" href=""><span id="total" class="cart_amt">
-                                        0</span></a></span>
+                            <span class="cart__logo" aria-label="Home"><span id="total" class="cart_amt">
+                                    0</span></span>
                         </button>
                     </div>
                 </div>
-                <div id ='callwaiter' role="alert">
-        
+                <div id='callwaiter' role="alert">
+
                 </div>
             </div>
         </header>
 
-        <main>
+        <main class="main_wrapper">
             <div class="banner-heading">
                 <h1 class="heading-small">Do you have any allergy?</h1>
             </div>
@@ -107,7 +88,7 @@
 
             <div class="menu_wrapper">
                 <div class="menu_heading" id="menu_section">
-                    <h1 >Menu</h1>
+                    <h1>Menu</h1>
                 </div>
 
                 <div class="menu_subheading" id="starter_section">
@@ -118,41 +99,41 @@
 
                 <div class="menu_subheading" id="meat_section">
                     <h3>Meat</h3>
-                </div>   
+                </div>
                 <div class="sub_menu_wrapper" id="meat"> </div>
 
                 <div class="menu_subheading" id="veg_section">
                     <h3>Vegetarian</h3>
-                </div>   
+                </div>
                 <div class="sub_menu_wrapper" id="veg"> </div>
 
                 <div class="menu_subheading" id="kid_section">
                     <h3>Kids special</h3>
-                </div>   
+                </div>
                 <div class="sub_menu_wrapper" id="kid"> </div>
 
                 <div class="menu_subheading" id="drink_section">
                     <h3>Drinks</h3>
-                </div> 
+                </div>
                 <div class="sub_menu_wrapper" id="drink"> </div>
-               
+
                 <div class="place_order" id="order_here">
-                    <button class="place_order_text" >
+                    <button class="place_order_text">
                         Place order
                     </button>
                 </div>
 
             </div>
-    
 
-            </main>
 
-            <footer>
+        </main>
 
-            </footer>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="./script/order.js"></script>
-    </body>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script/order.js"></script>
+</body>
 
 </html>
