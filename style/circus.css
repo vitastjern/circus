@@ -123,7 +123,7 @@ body{
 }
 
 #aboutus{
-  padding-left: 10px;
+  padding-left: 10px; 
   width:79%;
   height:79%;
 }
@@ -137,17 +137,6 @@ body{
 #about-ida {
   height:45%;
 }
-
-#bookingdiv {
-  padding-left:10px;
-  width: 100%;
-}
-
-.bookingbackground {
-  /* didn't succeed when I put the background here for some reason... */
-  margin-bottom: 10px;
-}
-
 
 #topcont{
   margin: 0px;
@@ -180,7 +169,7 @@ body{
 
   /*footer*/
 
-  footer {    
+footer {    
       background-color: black;
       display: block;
       font-family: Garamond, serif;
@@ -242,9 +231,12 @@ body{
   width: 50%;
 }
 
+
 /*------ CSS for booking - start  ------*/
 
-
+#bookingdiv {   
+  margin:10px;
+}
  /*Gallery*/
   div.gallery {
     border: 1px solid #ccc;
@@ -312,43 +304,27 @@ div.desc {
     border: 2px solid;
     border-radius: 5px;
 }
-
-/* form  */
-
-form  input {
-    padding: 10px;
-    margin: 0;
-    width: 400px;
-    height: 39px;
-    }
-
-/* Makes responsive fields. Sets size and field alignment.
-input, select{
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    width: 250px;
-    padding: 15px;
-    border-radius:5px;
-   
-    }*/
 /*---------BookingEnquiry---------*/
 
 #BookingEnquiry {
-    position:fixed;
-    width: 500;
-    height: 590;
-    border: 2px solid;
-    background-color: rgba(232, 227, 248, 0.9);
-    top:10%; 
-    left: 20%;
-    right:50%;
-    border-radius: 5%;  
-    display: block; 
+  position:fixed;
+  width: 400;
+  height: 480;
+  border: 2px solid;
+  background-color: rgba(232, 227, 248, 0.698);
+  top:9%; 
+  left: 17%;
+  right:50%;
+  border-radius: 5%;  
+  display: block; 
+
 }
 
-/* BookingPage */
-#BookingPage {
-  height: 75%;
-} 
+/* form  */
+form input[placeholder],textarea { /* Selects all input with a target placeholder except input type="submit"*/
+    padding: 10px;
+    margin: 4px;
+    width: 300px;
+  
+    }
 
