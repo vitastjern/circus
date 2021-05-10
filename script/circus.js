@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    stickyNavbar();
+    //stickyNavbar();
     //$(this).scrollTop(0);                               // scrolls the page back to top on reload 
     //$( window ).scroll(function(){stickyNavbar()});     //runs the stickynavbar function when scrolling main window
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
@@ -15,9 +15,9 @@ $(document).ready(function(){
 });
 
 
-function stickyNavbar() {
+/*function stickyNavbar() {
 var stickybar = ($('#navbar').offset().top <= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
-}
+}*/
  
 /* var stickybar = $('#navbar').offset();  // this is the old code for the function above kept it in since it much easier to read
 function stickyNavbar() {
@@ -281,3 +281,17 @@ function helpme(){  //function to toggle the help msg
     $('#callwaiter').html(' <strong>Hello</strong> A waiter will come and help you shortly').toggle();
     
 }
+
+function show_hide_toggle() {
+    var x = document.getElementById("menu_section");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function show_menu(){
+    var x = document.getElementById("menu_section");
+    x.style.display = "block";
+  }

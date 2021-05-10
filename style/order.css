@@ -64,6 +64,10 @@
     min-width: 50px;
     min-height: 50px;
 }
+.logo_small{
+ width:10%;
+}
+
 .button {
    
     -webkit-appearance: none;
@@ -165,6 +169,7 @@
     display: inline-block;
     margin-bottom: 0;
     margin: 0 calc(28px * 0.8);
+    padding:0;
 }
 
 a {
@@ -326,9 +331,13 @@ padding-top: 1rem;
     content: "";
     display: block;
     height: 5rem; /* fixed header height*/
-    margin: -5rem 0 0; /* negative fixed header height */
-    background-color: black;
+    margin: -5rem 0 0;  /*negative fixed header height */
+    
   }
+  #menu_section.menu_heading::before{
+      background-color: black;
+  }
+
 /*
   h2{
       font-size: 1rem;
@@ -371,4 +380,12 @@ padding-top: 1rem;
       max-height:12rem;
       width: 15rem;
       height: 12rem;
+  }
+
+  .menu_heading_color{
+      background-color: #ddd;
+  }
+
+  .hide{
+      display: none;
   }
