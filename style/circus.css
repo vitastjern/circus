@@ -308,7 +308,7 @@ div.desc {
     background-color:#000;
     
     
-}*/
+}
 li{
     
     display: inline-block;
@@ -326,7 +326,7 @@ li a {
   }
 
 }
-
+*/
 /* form  */
 form input[placeholder],textarea { /* Selects all input with a target placeholder except input type="submit"*/
     padding: 10px;

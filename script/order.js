@@ -25,7 +25,7 @@ class Ingredient {
 
 
 function dummy_data() {
-    gluten_free = new Ingredient("Gluten free", "Will make dish gluten free while restoring original taste", 20.00);
+    gluten_free = new Ingredient("Gluten free", "Will make dish gluten free while keeping original taste", 20.00);
     mayonnaise = new Ingredient("Mayonnaise");
     ketchup = new Ingredient("Ketchup");
     cheese = new Ingredient("Cheese", 10.00);
