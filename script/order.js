@@ -332,7 +332,7 @@ $(document).ready(function () {
         
     });
     
-    $('.help').click(function(){helpme()})
+   // $('.help').click(function(){helpme()}) 
 
 });
 

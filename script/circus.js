@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    stickyNavbar();
+   
     setInterval('swapImages()', 5000);                  // Runs the  swapImages() function every 5secs
     $('#fadeGallery').click(function(){window.location="#bookinganchor"});
     $('#showlist').click(function(){window.location="#bookinganchor"});
@@ -14,10 +14,6 @@ $(document).ready(function(){
     load_menu_data();
 });
 
-
-/*function stickyNavbar() {
-var stickybar = ($('#navbar').offset().top <= window.pageYOffset) ? $('#navbar').addClass("navstick") : $('#navbar').removeClass("navstick") ;
-}*/
  
 function swapImages(){                              // ? :  is like a if else
     var $active = $('#fadeGallery .active');          
