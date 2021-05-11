@@ -283,7 +283,7 @@ function dummy_data() {
 
    
 
- /*   stickyNavbar(); */
+ 
 
     $starter.append(starter_block);
     $meat.append(meat_block);
@@ -332,27 +332,10 @@ $(document).ready(function () {
         
     });
     
-    //$( window ).scroll(function(){stickyNavbar()}); 
-    //runs the stickynavbar function when scrolling main window
-    //$(this).scrollTop(0); 
-    // scrolls the page back to top on reload 
-    
     $('.help').click(function(){helpme()})
 
 });
 
-
-/*
-var stickybar = $('#navbar').offset();
-
-function stickyNavbar() {
-    $('#myGallery').css('padding-top', '55');
-    if (window.pageYOffset <= stickybar.top) {
-        $('#navbar').addClass("navstick");
-    } else {
-        $('#navbar').removeClass("navstick");
-    }
-}*/
 
 function helpme(){  //function to toggle the help msg 
     
